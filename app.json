@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Ethiopian Orthodox Tewahedo Calendar",
+    "slug": "ethiopian-orthodox-calendar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./frontend/public/pwa-icon.svg",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#183B36",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eyobbegashaw.ethiopiancalendar"
+    },
+    "android": {
+      "package": "com.eyobbegashaw.ethiopiancalendar",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#183B36"
+      },
+      "permissions": [
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED"
+      ]
+    },
+    "web": {
+      "favicon": "./frontend/public/pwa-icon.svg"
+    }
+  }
+}
